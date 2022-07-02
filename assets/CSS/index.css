@@ -1,0 +1,206 @@
+body{
+    background: #ffffff07;
+    padding-top: 55px;
+}
+
+
+#submobnav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#about{
+    border-radius: 30px;
+    background: rgba(209, 206, 206, 0.555);
+}
+
+#about1{
+    background: rgb(87, 60, 60);
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    display: block;
+}
+
+.nav-link:hover{
+    color: white;
+    background: rgb(84, 84, 109);
+}
+
+.nav-link:active{
+    background: rgb(84, 84, 109);
+}
+
+#bannerbg{
+    background-image: url("../../images/bannerbg.jpg");
+    background-size: cover;
+}
+
+#textbn{
+    color: black;
+
+}
+
+.static-text{
+    color: white;
+}
+
+.change-content::after{
+    content: "";
+    animation: changetext 5s infinite ;
+    font-size: 3rem;
+}
+
+@keyframes changetext {
+    0% {content: "React.Js Developer";}
+    25% {content: "Node.js Developer";}
+    50% {content: "Bootstrap Developer";}
+    75% {content: "Database Developer";}
+    100% {content: "Fullstack Developer";}
+}
+
+.info{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.ans{
+    font-size: 15px;
+}
+
+#footer{
+    background:rgb(177, 119, 119) ;
+ }
+#footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+#footer a{
+    color: white;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+
+  #bold{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #bolder{
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #subskillsection{
+    background: rgba(209, 206, 206, 0.555);
+    border-radius: 10px;
+  }
+
+  #borderround{
+    background: rgba(209, 206, 206, 0.555);
+    border-radius: 10px;
+  }
+
+  .navbar .nav-link.active {
+    background-color: rgba(10, 107, 143, 0.548);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
