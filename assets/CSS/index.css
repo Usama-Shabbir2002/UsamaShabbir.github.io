@@ -34,6 +34,10 @@ body{
     background: rgb(84, 84, 109);
 }
 
+#mnav-link:active{
+  background: rgb(84, 84, 109);
+}
+
 .nav-link:active{
     background: rgb(84, 84, 109);
 }
