@@ -12,13 +12,14 @@ body{
   justify-content: center;
   border-radius: 10px;
   margin-bottom: 10px;
+  box-shadow: 20px 10px 40px 40px white;
 }
 
 #submobnav a{
   border-radius: 40px;
 }
 
-#submobnav a.active{
+#submobnav a:active{
   background-color: rgba(10, 107, 143, 0.548);
 }
 
@@ -50,9 +51,9 @@ body{
   background-color: rgba(10, 107, 143, 0.548);
 }
 
-.nav-link:active{
+/* .nav-link:active{
     background: rgb(84, 84, 109);
-}
+} */
 
 #bannerbg{
     background-image: url("../../images/bannerbg.jpg");
