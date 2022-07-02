@@ -4,6 +4,8 @@ body{
 }
 
 
+
+
 #submobnav{
   display: flex;
   align-items: center;
@@ -96,7 +98,7 @@ body{
 
 
 
-resume .resume-title {
+  .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
     margin-top: 20px;
